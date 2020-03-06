@@ -17,7 +17,7 @@ RandomEnchants.AnnounceOnLogin=1
 #        Message to display on login(Only applies if AnnounceOnLogin is enabled)
 #        Default:    "This server is running a RandomEnchants Module."
 
-RandomEnchants.OnLoginMessage="This server is running a RandomEnchants Module."
+RandomEnchants.OnLoginMessage="This server is running Shou's RandomEnchants Module."
 
 #
 #     RandomEnchants.OnLoot
@@ -39,4 +39,33 @@ RandomEnchants.OnCreate=1
 #        Default:     1
 
 RandomEnchants.OnQuestReward=1
+
+
+#
+#     RandomEnchants Limit
+#        Limits the number of random enchants that may be applied to a given item, does not alter existing items
+#        Default:     3 (Max 5, min 0)
+RandomEnchants.maxEnchants=3
+
+#
+#     RandomEnchants Slots
+#        Sets what enchantment slot the random enchantments go into.
+#        Default: 0,1,5
+RandomEnchants.slot1=0
+RandomEnchants.slot2=1
+RandomEnchants.slot3=5
+RandomEnchants.slot4=10
+RandomEnchants.slot5=11
+
+
+#
+#     RandomEnchants NPC costs
+#        Item ID, Amount of said item, and gold cost (in copper) of having the sernco employee reroll the random enchants on an item
+#        Default:     20725 - Nexus Crystal, 5, 5000000 - 500 gold
+
+RandomEnchants.rerollItem=20725
+RandomEnchants.rerollItemAmount=0
+RandomEnchants.rerollGoldCost=5000000
+
+
 
